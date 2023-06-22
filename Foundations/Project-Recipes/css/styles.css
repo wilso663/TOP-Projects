@@ -72,7 +72,7 @@ a:focus, a:hover {
 }
 .recipe__section p {
   border-bottom: 2px solid #d4d4d4;
-  padding: 1rem 0;
+  padding: .75rem 0;
   font-size: 1.5rem;
 }
 .container ul {
@@ -114,6 +114,10 @@ a:focus, a:hover {
   padding: .5rem;
   font-size: 1.125rem;
 }
+.recipe__ingredients {
+  margin-bottom: 0;
+}
+
 .recipe__ingredients li {
   padding: .125rem;
   font-size: 1.125rem;
