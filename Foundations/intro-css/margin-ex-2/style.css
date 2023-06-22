@@ -1,0 +1,43 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  border: 8px solid white;
+}
+
+.title {
+  background: #e3f4ff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  margin: 0;
+  border-bottom: 8px solid white;
+}
+
+.content {
+  background: #e3f4ff;
+  padding: .5rem;
+  border-bottom: 8px solid white;
+}
+
+.button-container {
+  background: #e3f4ff;
+  padding: .5rem;
+  text-align: center;
+}
+
+button {
+  display: block;
+  background: white;
+  border: 1px solid #eee;
+  margin: 0 auto;
+  padding: 8px 24px;
+}
